@@ -3,7 +3,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Uso de MaterializeCSS</title>
+    <meta name="author" content="Ing. Christhian Alexander Acevedo Blandon.">
+    <title>Tropi Express Rama</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
     <link rel="stylesheet" href="css/estilos.css">
@@ -12,209 +13,188 @@
 <body>
    <!--menu responsivo-->
   <div class="navbar-fixed">
-    <nav class="black accent-3">
+    <nav  id="Inicio" class="black accent-3">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Christhian Acevedo</a>
+        <a href="#" class="brand-logo"><i class=" responsive-img material-icons"> <img src="img/cilindro.png" alt=""></i>Expres Rama®</a> 
         <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Servicios">Servicios</a></li>
-          <li><a href="#Contactos">Contactos</a></li>
-          <li><a href="#Noticias">Noticias</a></li>
+          <li><a id="Menu" href="#Productos">PRODUCTOS</a></li>
+          <li><a id="Menu" href="#Servicios">SERVICIOS</a></li>
+          <li><a id="Menu" href="#Servicios">EMPLEADOS</a></li>
+          <li><a id="Menu" href="#Noticias">CLINICA DENTAL</a></li>
         </ul>
         <ul class="side-nav" id="mobile-menu">
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Servicios">Servicios</a></li>
-          <li><a href="#Contactos">Contactos</a></li>
-          <li><a href="#Noticias">Noticias</a></li>
+          <li><a href="#Productos">PRODUCTOS</a></li>
+          <li><a href="#Servicios">SERVICIOS</a></li>
+          <li><a href="#Servicios">EMPLEADOS</a></li>
+          <li><a href="#Noticias">CLINICA DENTAL</a></li>
         </ul>
       </div>
     </nav>
   </div>
 
+  <div class="center">
+     <img class="responsive-img" src="img/ExpresRama.png"> 
+  </div>
+    
+       <div  id="num" class="yellow center">
+         <h1>Servicio y Solucion al Instante</h1>
+         <h2>Llamanos al 86330881</h2>
+       </div>
+
+      
   <!--Slider de imagenes-->
-    <div class="slider menu" id="Inicio">
+    <div class=" grey slider menu">
       <ul class="slides">
         <li>
-          <img src="img/imagen1.jpg" alt=""> <!-- random image -->
+          <img  class="responsive-img" src="img/puerto.jpg" alt=""> <!-- random image -->
           <div class="caption center-align">
-            <h3>Etiquetas HTML</h3>
-            <h5 class="light grey-text text-lighten-3">Contenidos de mayor diseño</h5>
+            <h3>Puerto Nacional</h3>
           </div>
         </li>
         <li>
-          <img src="img/imagen2.jpg" alt=""> <!-- random image -->
-          <div class="caption left-align">
-            <h3>Framework de edicion</h3>
-            <h5 class="light grey-text text-lighten-3">Nos permiten mejor interactividad</h5>
-          </div>
+          <img class="responsive-img" src="img/rama.jpg" alt=""> <!-- random image -->
         </li>
         <li>
-          <img src="img/imagen3.jpg" alt=""> <!-- random image -->
+          <img  class="responsive-img" src="img/puente.jpg" alt=""> 
           <div class="caption right-align">
-            <h3>CSS y Java script</h3>
-            <h5 class="light grey-text text-lighten-3">Para mejorar tus sitios web</h5>
-          </div>
+            <h3>Puente La Esperanza</h3>
+          </div><!-- random image -->
         </li>
         <li>
-          <img src="img/imagen4.jpg" alt=""> <!-- random image -->
-          <div class="caption center-align">
-            <h3>Christhian Acevedo</h3>
-            <h5 class="light grey-text text-lighten-3">Estudiante en aprendizaje de Html y Java script.</h5>
-          </div>
+          <img class="responsive-img" src="img/calzada2.jpg" alt=""> <!-- random image -->
         </li>
       </ul>
     </div>
 
-     
-
-
   <!--inicio del contenido main-->
   <main>
-    <!--seccion de servicios-->
-    <section class="row menu" id="Servicios">
-      <h2 class="center-align red-text">Servicios</h2>
-      <p class="center-align orange">Estos son nuestros servicios para usted</p>
+    <!--seccion de Productos-->
+    <section class="row menu" id="Productos">
+      <hr>
+      <h2  id="text" class="center-align blue-text">Nuestros Productos</h2>
       <!-- primer articulo una columna-->
-        <article class='col s12 m4'>
-          <div class='icon-block'>
-            <h2 class='center light-blue-text'><img width='30%' src='img/icon/computer.png' alt=''></h2>
-            <h5 class='center blue-text'>Desarrollo WEb</h5>
-            <p class='light'>Uso de herramientas para un sitio responsibo usando materialize y css.</p>
-          </div>
+        <article class='col s12 m4'>           
+          <img src="img/tropi25.jpg"  class="img-responsive">
+          <h4 id="text" class="center"> Tropigas de 25 Lbs</h4>
+          <p id="texto" class="center-text">Es uno de los  tropigas mas utilizados en los hogares, 
+          En nuestro negocio lo distribuimos en dos presentaciones HIERRO Y ALUMINIO , dos embases 
+          diferentes, con diferente peso, pero su contenido es el mismo </p>   
+          <br>     
+          <p><a class="btn btn-primary active" href="#" role ="button">PRECIO ACTUAL ES DE: 260 C$  &raquo;</a></p>
         </article>  
 
               <!-- Segundo articulo una columna-->
         <article class='col s12 m4'>
-          <div class='icon-block'>
-            <h2 class='center light-blue-text'><img width='30%' src='img/icon/floppy.png' alt=''></h2>
-            <h5 class='center blue-text'>Responsibidad</h5>
-            <p class='light'>Haz que tu sitio web se vea en cualquier movil.</p>
-          </div>
+          <img src="img/tr1001.jpg"  class="img-responsive">
+          <h4 id="text" class="center"> Tropigas de 100 Lbs</h4>
+          <p  id="texto"class="center-text">Es un embase poco comercial en hogares pero si es uno de los mas usados en
+          comedores de gran consumo, estos embaces continen aproximadamente el equivalente  a 4 cilindros
+          de 25 Lbs, su unica presentacion es en HIERRO </p>    
+          <br>    
+          <p><a class="btn btn-primary active" href="#" role ="button">PRECIO ACTUAL ES DE: 1350 C$  &raquo;</a></p>
         </article> 
 
               <!-- tercer articulo una columna-->
         <article class='col s12 m4'>
-          <div class='icon-block'>
-            <h2 class='center light-blue-text'><img width='30%' src='img/icon/tablet.png' alt=''></h2>
-            <h5 class='center blue-text'>Despliegue de imagenes</h5>
-            <p class='light'>utilizamos github para el despliegue de imangenes.</p>
-          </div>
+           <img src="img/val252.png"  class="img-responsive"></article>
+           
+          <h4 id="text" class="center"> Valvulas</h4>
+          <p  id="texto" class="center-text">En nuestro negocio lo mas importante es asegurar que tu conocina este lo mas seguro posible
+        por tal razon , te ofrecemos valvulas celladas de doble Clik son las mas efecticas y seguras 
+        Las obtienes en dos presentaciones </p>   
+        <br>     
+          <p><a class="btn btn-primary active" href="#" role ="button">PRECIO ACTUAL ES DE: 1350 C$  &raquo;</a></p>
         </article> 
     </section>
-  
-  
-<!--Segunda secciom -->
-<section class = "row menu" id="Contactos">
-
- <h2 class="center-align red-text">Contactos</h2>
- <h5 class="center-aling-black-text">Enviamos tu opinion</h5>
-<!--Columna de Formulario-->
-  <article class="extra col s12 m6 l6">  
-    <h6 class="center-aling">Rellene los campos</h6> 
-    <hr>
-
-<form action="">
-  <div class="input-field col s12 ">
-    <i class="material-icons prefix  red-text">account_circle</i>
-    <input type="text" id="icon_prefix" class="validate">
-    <label for="first_name">Nombre Completo</label>
-  </div>
-
-  <div class="input-field col s12">
-     <i class="material-icons prefix red-text ">contact_mail</i>
-    <input type="email" id="icons_prefix" class="validate">
-    <label for="email" data-error="wrong" data-success="right">Correro Electronico</label>
-  </div>
-  <div class="input-field col s12">
-     <i class="material-icons prefix red-text">chat</i>
-    <textarea id="icons_prefix" class="materialize-textarea"></textarea>
-    <label for="textarea1">Comentario</label>
-  </div>
-  <button class="btn waves-effect waves-light red" type="submit" name="action">Enviar
-    <i class="material-icons right">send</i>
-  </button>
-</form>
-<!--Columna de informacion--> 
-  </article class="forma col s12 m6 l6">
-  <h4 class="center-align red-text"> Informacion</h4>
-  <ul>
-    <li>Direccion: <p class="blue-text">Gasolinera puma 800 metros al oeste</p></li>
-    <li>Direccion: <p class="blue-text">proyectoweb@gmail.com</p></li>
-    <li>Direccion: <p class="orenge-text"> (505)25122694</p></li>
-  </ul>
-  </article>
-</section>
+      <br>
+      <hr>
 
 <div class="parallax-container">
-  <div class="parallax"><img src="img/imagen5.jpg"></div>
+  <div class="parallax"><img src="img/parke.jpg"></div>
 </div>
 
-  <section class="row menu" id="Noticias">
+  <section class=" grey row menu" id="Servicios">
     <!--seccion de noticias-->
-     <h2 class="center-align red-text">Noticias Relevantes</h2>
-     <h5 class="center-aling-black-text">Ven y descuble lo mejor en tecnologia</h5>
+     <h2 id="text" class="center-align">Nuestros Servicios</h2>
+     <h5 id="tex" class="center-aling-black-text">No somos lo Unicos pero si los Mejores</h5>
+     <hr>
 <!--cartas de contenido mz-card-->
      <article class="col s12 m3 l3">
-       <div class="card">
+       <div class=" blue card">
          <div class="card-image">
-           <img src="img/imagen1.jpg" alt=""/>
+           <img src="img/fuga4.jpg" alt=""/>
            <span class="card-title"></span>
          </div>
          <div class="card-content">
-           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+           <p id="texto">Las tuberias con el tiempo sufren de corrocion y ruptura, se debe hacer chequeo
+             por cada cambio de tropigas, debido a que unos traen mas presion que otros.
+           </p>
          </div>
-         <div class="card-action">
-           <a href="#">Ver notcia1</a>
+         <div class=" center black card-action">
+           <a href="#">Identificacion de fugas</a>
          </div>
        </div>
 
      </article>
 
      <article class="col s12 m3 l3">
-             <div class="card">
+             <div class=" blue card">
          <div class="card-image">
-           <img src="img/imagen2.jpg" alt=""/>
+           <img src="img/val100.png" alt=""/>
+           <img src="img/val25.jpg" alt=""/>
+           
+           
            <span class="card-title"></span>
          </div>
          <div class="card-content">
-           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+           <p id="texto">Cada una posee Horrimes (Hules de Presión)
+             Con el tiempo se pican y es necesario cambiarlos,
+            
+           </p>
          </div>
-         <div class="card-action">
-           <a href="#">Ver noticia 2</a>
+         <div class=" center black card-action">
+           <a href="#">Reparación de Valvulas</a>
          </div>
        </div>
      </article>
 
      <article class="col s12 m3 l3">
-             <div class="card">
+             <div class=" blue card">
          <div class="card-image">
-           <img src="img/imagen3.jpg" alt=""/>
+           <img src="img/lud1.JPG" alt=""/>
            <span class="card-title"></span>
          </div>
          <div class="card-content">
-           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+           <p id="texto">Para nosotros es un placer atenderles
+             Solo Llamenos.<br>
+             Entregas al por mayor y al detalle
+           </p>
          </div>
-         <div class="card-action">
-           <a href="#">Ver noticia 3</a>
+         <div class="center black card-action">
+           <a href="#">Entrega a Domicilio</a>
+         </div>
+       </div>
+     </article>
+           <article class="col s12 m3 l3">
+             <div class=" blue card">
+         <div class="card-image">
+           <img src="img/fuga3.jpg" alt=""/>
+           <span class="card-title"></span>
+         </div>
+         <div class="card-content">
+           <p id="texto">Existen variedad de tipos de cocinas, cada una 
+             requiere diferentes ajustes o regulacion en el tapon de union
+              y quede seguro el pase de tropigas
+             por la tuberia.
+           </p>
+         </div>
+         <div class=" center black card-action">
+           <a href="#">Instalación de Cocinas</a>
          </div>
        </div>
      </article>
 
-     <article class="col s12 m3 l3">
-             <div class="card">
-         <div class="card-image">
-           <img src="img/imagen4.jpg" alt=""/>
-           <span class="card-title"></span>
-         </div>
-         <div class="card-content">
-           <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
-         </div>
-         <div class="card-action">
-           <a href="#">Ver noticia 4</a>
-         </div>
-       </div>
-     </article>
   </section>
 
     </main>
@@ -238,6 +218,7 @@
        $('.slider').slider({heigth:250});
        $('.parallax').parallax();
        $('.menu').scrollSpy();
+       $('.carousel').carousel();
     })
      
   </script>
